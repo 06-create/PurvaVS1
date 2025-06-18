@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
-
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    //Hackerrank 2 medium-level program
+    //1D array sum  
     int arr[100],n,i,sum=0;
     scanf("%d\n",&n);
     

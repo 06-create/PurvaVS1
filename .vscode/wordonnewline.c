@@ -3,7 +3,7 @@
 #include <math.h>
 #include <stdlib.h>
 //c basic medium-level 4th program
-//enter every word of the sentence on new line 
+//printing tokens program
 int main() {
 
     char *s;

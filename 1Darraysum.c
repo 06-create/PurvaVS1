@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main() {
 
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
-    int arr[100],n,i,sum=0;
+    //hackerrank 1D array sum program    
+    int n,i,sum=0;
     scanf("%d\n",&n);
-    
+    int *arr = (int *) malloc(sizeof(int) * n);
     for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
